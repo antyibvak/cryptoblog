@@ -7,7 +7,7 @@ const Intro = () => {
       <div>
         <div className='flex items-center justify-center'>
           <Image
-            src="/../public/tvax.png" 
+            src="/tvax.png" 
             alt='my photo'
             height='90px'
             width='90px'
