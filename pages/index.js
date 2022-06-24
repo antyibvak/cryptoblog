@@ -1,6 +1,6 @@
 import { NextPage } from 'next'
 import Head from 'next/head'
-import { PostCard, PostWidget, Categories, Intro } from '../components'
+import { PostCard, PostWidget, Categories, Intro, Contact } from '../components'
 import { getPosts } from '../services'
 
 
@@ -20,6 +20,7 @@ export default function Home({ posts }) {
           <div className='lg:sticky relative top-8'>
             <PostWidget categories={undefined} slug={undefined} />
             <Categories />
+            <Contact />
           </div>
         </div>
       </div>
